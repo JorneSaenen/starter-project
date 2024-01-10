@@ -9,6 +9,7 @@
     "deploy": "surge ./dist"
   },
   "devDependencies": {
+    "sass": "^1.69.7",
     "surge": "^0.23.1",
     "vite": "^5.0.11"
   },
