@@ -1,0 +1,18 @@
+@import url("./fonts.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h1 {
+  font-family: "BigParyBlue";
+  font-size: 100px;
+}
+
+img {
+  border-radius: 40px;
+}

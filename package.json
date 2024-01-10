@@ -1,0 +1,19 @@
+{
+  "name": "starter-project",
+  "version": "1.0.0",
+  "description": "Starter template basic",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build && rm -rf ./dist/node_modules && rm ./dist/package.json ./dist/package-lock.json ./dist/snowpack.config.js",
+    "deploy": "surge dist",
+    "rmBuild": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.2.0",
+    "snowpack": "^3.8.8",
+    "surge": "^0.23.1"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.4"
+  }
+}
