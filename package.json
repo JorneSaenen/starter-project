@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "Starter template basic",
   "scripts": {
-    "dev": "snowpack dev",
-    "build": "snowpack build && rm -rf ./dist/node_modules && rm ./dist/package.json ./dist/package-lock.json ./dist/snowpack.config.js",
-    "deploy": "surge dist",
-    "rmBuild": "rm -rf dist"
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --port 3001",
+    "deploy": "surge ./dist"
   },
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^2.2.0",
-    "snowpack": "^3.8.8",
-    "surge": "^0.23.1"
+    "surge": "^0.23.1",
+    "vite": "^5.0.11"
   },
   "dependencies": {
     "nanoid": "^5.0.4"

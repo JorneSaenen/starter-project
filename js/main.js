@@ -4,4 +4,4 @@ console.log(nanoid());
 
 console.log("hello world");
 
-console.log(import.meta.env.SNOWPACK_PUBLIC_TEST);
+console.log(import.meta.env.VITE_TEST);
